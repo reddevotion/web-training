@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="./index.js"></script>
+    <style>
+        * {
+            box-sizing: border-box
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+
+        }
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .tests {
+            display: flex;
+            gap: 50px;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Transport</h1>
+        <div class="tests">
+            <div>
+                <h2>Params</h2>
+                <div id="params"></div>
+            </div>
+            <div>
+                <h2>Headers</h2>
+                <div id="headers"></div>
+            </div>
+            <div>
+                <h2>Timeout</h2>
+                <div id="timeout"></div>
+            </div>
+        </div>   
+    </div>
+</body>
+</html>
